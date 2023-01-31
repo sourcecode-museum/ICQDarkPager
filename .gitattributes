@@ -1,0 +1,48 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+*.VisualBasic6 linguist-detectable=true
+* text eol=auto
+*.bas text eol=crlf
+*.frm text eol=crlf
+*.log text eol=crlf
+*.vbp text eol=crlf
+*.cls text eol=crlf
+*.vbw text eol=crlf
+*.dsr text eol=crlf
+*.ini text eol=crlf
+
+# Denote all files that are truly binary and should not be modified.
+*.res binary
+*.RES binary
+*.frx binary
+*.exe binary
+*.dll binary
+*.ico binary
+*.gif binary
+*.ocx binary
+*.oca binary
+*.tlb binary
+*.ocx.bin binary
+*.ism binary
+*.bin binary
+*.aps binary
+*.ncb binary
+*.rpt binary
+*.jpg binary
+*.tiff binary
+*.lab binary
+*.bmp binary
+*.png binary
+*.exe.compat binary
+*.ocx.compat binary
+
+# Standard to msysgit
+*.doc	 diff=astextplain
+*.DOC	 diff=astextplain
+*.docx diff=astextplain
+*.DOCX diff=astextplain
+*.dot  diff=astextplain
+*.DOT  diff=astextplain
+*.pdf  diff=astextplain
+*.PDF	 diff=astextplain
+*.rtf	 diff=astextplain
+*.RTF	 diff=astextplain
